@@ -1,0 +1,122 @@
+.item{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+
+  
+}
+.jadu{
+  border-style: solid;
+  border-width: 10px;
+  border-color:rgb(231, 231, 231); 
+
+  
+}
+.heading{
+  /* background-color: black; */
+  /* padding: 1px 6px;
+  margin: 14px 7px;
+  border-radius: 5px; */
+  min-height: 50px;
+   background-color: #333;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+  
+
+.headingName{
+  display: flex;
+  justify-content: space-between;
+  z-index: 100%;
+  color: aliceblue;
+
+}
+.detail{
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 5px;
+}
+.detail >img{
+  height: 240px;
+  width: 100px;
+}
+.detail >ul{
+  list-style: none;
+}
+.detail >ul li::before  {
+  list-style-type: circle;
+  content: "\2022";
+  color: #00B098;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  font-size: x-large;
+
+}
+/* .Price{
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 5px;
+} */
+.negociableprice{
+  display: flex;
+  justify-content: space-between;
+}
+#k{
+  font-family: ActualM;
+  font-size: 17px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: .06px;
+  text-align: left;
+  color: #666;
+  margin: 0;
+  /* background: #fff; */
+  z-index: 1
+}
+.estimate{
+  background-color:#666666;
+  padding: 1px 6px;
+  margin: 14px 7px;
+  border-radius: 10px;
+  align-items: center;
+}
+.anualsaving{
+  /* padding: 1px 6px;
+  margin-left: 6px;
+  align-items: center;
+  border: 3px solid #32dd1bf6 */
+  border-radius: 4px;
+    border: solid 2px #32dd1bf6;
+    max-width: 253px;
+    width: 100%;
+    padding: 10px 50px;
+    margin: 10px auto auto;
+}
+#button{
+  background-color:rgb(80, 41, 220);
+  color: white;
+  margin-top: 20px;
+  height: 40px;
+  width: 250px;
+ margin-left: 87px;
+ margin-right: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 900;
+  transition: 0.5s;
+ 
+
+}
+.footer{
+  background-color:rgb(231, 231, 231);
+  padding: 1px 6px;
+  margin: 14px 7px;
+  border-radius: 2px;
+  text-align: center;
+  color: rgb(0, 102, 255);
+  font-weight: bold;
+}
